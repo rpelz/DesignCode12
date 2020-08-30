@@ -24,6 +24,7 @@
 		F47EFFB524FAB677002496D0 /* DesignCode12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode12.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47EFFB724FAB677002496D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47EFFB824FAB677002496D0 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F48D37B224FB97780006DDD4 /* DesignCode12.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DesignCode12.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +48,7 @@
 		F47EFFA024FAB676002496D0 = {
 			isa = PBXGroup;
 			children = (
+				F48D37B224FB97780006DDD4 /* DesignCode12.entitlements */,
 				F47EFFA524FAB676002496D0 /* Shared */,
 				F47EFFAF24FAB677002496D0 /* iOS */,
 				F47EFFB624FAB677002496D0 /* macOS */,
@@ -320,6 +322,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesignCode12.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VX725859H7;
 				ENABLE_PREVIEWS = YES;
@@ -332,6 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = at.rpelz.DesignCode12;
 				PRODUCT_NAME = DesignCode12;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -342,6 +347,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DesignCode12.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VX725859H7;
 				ENABLE_PREVIEWS = YES;
@@ -354,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = at.rpelz.DesignCode12;
 				PRODUCT_NAME = DesignCode12;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
