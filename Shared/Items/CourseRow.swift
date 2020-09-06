@@ -14,7 +14,7 @@ struct CourseRow: View {
                 .renderingMode(.template)
                 .frame(width: 48.0, height: 48.0)
                 .imageScale(.medium)
-                .background(Color(.blue))
+                .background(Color(.systemBlue))
                 .clipShape(Circle())
                 .foregroundColor(.white)
             VStack(alignment: .leading, spacing: 4.0) {
