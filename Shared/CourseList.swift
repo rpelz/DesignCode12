@@ -20,8 +20,8 @@ struct CourseList: View {
     }
     
     var content: some View {
-        List(0 ..< 20) { item in
-            CourseRow()
+        List(courseSections) { item in
+            CourseRow(item: item)
         }
         .navigationTitle("Courses")
     }
