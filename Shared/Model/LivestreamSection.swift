@@ -1,6 +1,6 @@
 //
 //  LivestreamSection.swift
-//  DesignCodeUniversal
+//  DesignCode12
 //
 //  Created by Meng To on 7/9/20.
 //

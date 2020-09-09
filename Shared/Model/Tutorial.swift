@@ -1,6 +1,6 @@
 //
 //  Tutorial.swift
-//  iOS
+//  DesignCode12
 //
 //  Created by Meng To on 7/3/20.
 //
