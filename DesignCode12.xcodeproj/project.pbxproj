@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F445AE11250ACFD9004F54DF /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445AE10250ACFD9004F54DF /* VisualEffectBlur.swift */; };
+		F445AE13250ACFED004F54DF /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445AE12250ACFED004F54DF /* VisualEffectBlur.swift */; };
 		F47EFFB924FAB677002496D0 /* DesignCode12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EFFA624FAB676002496D0 /* DesignCode12App.swift */; };
 		F47EFFBA24FAB677002496D0 /* DesignCode12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EFFA624FAB676002496D0 /* DesignCode12App.swift */; };
 		F47EFFBB24FAB677002496D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EFFA724FAB676002496D0 /* ContentView.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F445AE10250ACFD9004F54DF /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		F445AE12250ACFED004F54DF /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		F47EFFA624FAB676002496D0 /* DesignCode12App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCode12App.swift; sourceTree = "<group>"; };
 		F47EFFA724FAB676002496D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F47EFFA824FAB677002496D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 		F47EFFAF24FAB677002496D0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				F445AE12250ACFED004F54DF /* VisualEffectBlur.swift */,
 				F47EFFB024FAB677002496D0 /* Info.plist */,
 			);
 			path = iOS;
@@ -137,6 +142,7 @@
 		F47EFFB624FAB677002496D0 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				F445AE10250ACFD9004F54DF /* VisualEffectBlur.swift */,
 				F47EFFB724FAB677002496D0 /* Info.plist */,
 				F47EFFB824FAB677002496D0 /* macOS.entitlements */,
 			);
@@ -288,6 +294,7 @@
 				F47EFFB924FAB677002496D0 /* DesignCode12App.swift in Sources */,
 				F4A19E762508CEE400D90E42 /* CourseSection.swift in Sources */,
 				F4A19E7C2508CEE400D90E42 /* GradientModel.swift in Sources */,
+				F445AE13250ACFED004F54DF /* VisualEffectBlur.swift in Sources */,
 				F4A19E532503D6D300D90E42 /* CoursesView.swift in Sources */,
 				F4A19E5E2504F06400D90E42 /* CourseList.swift in Sources */,
 			);
@@ -312,6 +319,7 @@
 				F47EFFBA24FAB677002496D0 /* DesignCode12App.swift in Sources */,
 				F4A19E772508CEE400D90E42 /* CourseSection.swift in Sources */,
 				F4A19E7D2508CEE400D90E42 /* GradientModel.swift in Sources */,
+				F445AE11250ACFD9004F54DF /* VisualEffectBlur.swift in Sources */,
 				F4A19E542503D6D300D90E42 /* CoursesView.swift in Sources */,
 				F4A19E5F2504F06400D90E42 /* CourseList.swift in Sources */,
 			);
