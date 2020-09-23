@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F445AE11250ACFD9004F54DF /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445AE10250ACFD9004F54DF /* VisualEffectBlur.swift */; };
 		F445AE13250ACFED004F54DF /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F445AE12250ACFED004F54DF /* VisualEffectBlur.swift */; };
+		F472BF472516A80500DFD790 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472BF462516A80500DFD790 /* TabBar.swift */; };
+		F472BF4B2517B3DA00DFD790 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472BF4A2517B3DA00DFD790 /* CourseSectionDetail.swift */; };
+		F472BF4C2517B3DA00DFD790 /* CourseSectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472BF4A2517B3DA00DFD790 /* CourseSectionDetail.swift */; };
 		F47EFFB924FAB677002496D0 /* DesignCode12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EFFA624FAB676002496D0 /* DesignCode12App.swift */; };
 		F47EFFBA24FAB677002496D0 /* DesignCode12App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EFFA624FAB676002496D0 /* DesignCode12App.swift */; };
 		F47EFFBB24FAB677002496D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47EFFA724FAB676002496D0 /* ContentView.swift */; };
@@ -45,11 +48,15 @@
 		F4A19E7F2508CEE400D90E42 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A19E702508CEE400D90E42 /* Download.swift */; };
 		F4A19E802508CEE400D90E42 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A19E712508CEE400D90E42 /* Course.swift */; };
 		F4A19E812508CEE400D90E42 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A19E712508CEE400D90E42 /* Course.swift */; };
+		F4E82B63251BF2F700C7263A /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E82B62251BF2F700C7263A /* LibraryContent.swift */; };
+		F4E82B64251BF2F700C7263A /* LibraryContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E82B62251BF2F700C7263A /* LibraryContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F445AE10250ACFD9004F54DF /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		F445AE12250ACFED004F54DF /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		F472BF462516A80500DFD790 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		F472BF4A2517B3DA00DFD790 /* CourseSectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSectionDetail.swift; sourceTree = "<group>"; };
 		F47EFFA624FAB676002496D0 /* DesignCode12App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCode12App.swift; sourceTree = "<group>"; };
 		F47EFFA724FAB676002496D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F47EFFA824FAB677002496D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,6 +81,7 @@
 		F4A19E6F2508CEE400D90E42 /* GradientModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientModel.swift; sourceTree = "<group>"; };
 		F4A19E702508CEE400D90E42 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		F4A19E712508CEE400D90E42 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Course.swift; path = "../../../../../../../../../Macintosh HS/Users/rpelz/Development/Projects/swiftui/DesignCode12_Assets/SwiftUI iOS 14/Source files/DesignCodeUniversal/Shared/Model/Course.swift"; sourceTree = "<group>"; };
+		F4E82B62251BF2F700C7263A /* LibraryContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +120,10 @@
 				F4A19E5B2504F02600D90E42 /* Navigation */,
 				F4A19E632506D4AD00D90E42 /* Model */,
 				F4A19E5C2504F03E00D90E42 /* Items */,
+				F4E82B67251BF6AA00C7263A /* Library */,
 				F4A19E522503D6D300D90E42 /* CoursesView.swift */,
+				F472BF4A2517B3DA00DFD790 /* CourseSectionDetail.swift */,
 				F4A19E672508CBBD00D90E42 /* CourseDetail.swift */,
-				F4A19E642508297200D90E42 /* CloseButton.swift */,
 				F4A19E5D2504F06400D90E42 /* CourseList.swift */,
 				F47EFFA824FAB677002496D0 /* Assets.xcassets */,
 			);
@@ -154,6 +163,7 @@
 			children = (
 				F4A19E552503F50000D90E42 /* Sidebar.swift */,
 				F47EFFA724FAB676002496D0 /* ContentView.swift */,
+				F472BF462516A80500DFD790 /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -180,6 +190,15 @@
 				F4A19E6D2508CEE400D90E42 /* TutorialSection.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F4E82B67251BF6AA00C7263A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F4A19E642508297200D90E42 /* CloseButton.swift */,
+				F4E82B62251BF2F700C7263A /* LibraryContent.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,7 +245,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					F47EFFAC24FAB677002496D0 = {
 						CreatedOnToolsVersion = 12.0;
@@ -280,7 +299,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A19E802508CEE400D90E42 /* Course.swift in Sources */,
+				F472BF4B2517B3DA00DFD790 /* CourseSectionDetail.swift in Sources */,
 				F4A19E742508CEE400D90E42 /* Tutorial.swift in Sources */,
+				F472BF472516A80500DFD790 /* TabBar.swift in Sources */,
 				F4A19E722508CEE400D90E42 /* LivestreamSection.swift in Sources */,
 				F4A19E782508CEE400D90E42 /* TutorialSection.swift in Sources */,
 				F4A19E562503F50000D90E42 /* Sidebar.swift in Sources */,
@@ -296,6 +317,7 @@
 				F4A19E7C2508CEE400D90E42 /* GradientModel.swift in Sources */,
 				F445AE13250ACFED004F54DF /* VisualEffectBlur.swift in Sources */,
 				F4A19E532503D6D300D90E42 /* CoursesView.swift in Sources */,
+				F4E82B63251BF2F700C7263A /* LibraryContent.swift in Sources */,
 				F4A19E5E2504F06400D90E42 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +334,7 @@
 				F4A19E5A2504ED1800D90E42 /* CourseItem.swift in Sources */,
 				F4A19E692508CBBD00D90E42 /* CourseDetail.swift in Sources */,
 				F4A19E662508297300D90E42 /* CloseButton.swift in Sources */,
+				F472BF4C2517B3DA00DFD790 /* CourseSectionDetail.swift in Sources */,
 				F4A19E7F2508CEE400D90E42 /* Download.swift in Sources */,
 				F47EFFBC24FAB677002496D0 /* ContentView.swift in Sources */,
 				F4A19E512502D2C500D90E42 /* CourseRow.swift in Sources */,
@@ -322,6 +345,7 @@
 				F445AE11250ACFD9004F54DF /* VisualEffectBlur.swift in Sources */,
 				F4A19E542503D6D300D90E42 /* CoursesView.swift in Sources */,
 				F4A19E5F2504F06400D90E42 /* CourseList.swift in Sources */,
+				F4E82B64251BF2F700C7263A /* LibraryContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VX725859H7;
@@ -520,6 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VX725859H7;

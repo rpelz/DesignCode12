@@ -10,7 +10,7 @@ import SwiftUI
 struct Sidebar: View {
     var body: some View {
         NavigationView {
-            #if os(iOS)
+            /*#if os(iOS)
             content
                 .navigationTitle("Learn")
                 .toolbar {
@@ -18,7 +18,7 @@ struct Sidebar: View {
                         Image(systemName: "person.crop.circle")
                     }
                 }
-            #else
+            #else*/
             content
                 .frame(minWidth: 200, idealWidth: 250, maxWidth: 300)
                 .toolbar {
@@ -28,7 +28,7 @@ struct Sidebar: View {
                         }
                     }
                 }
-            #endif
+            //#endif
             CoursesView()
         }
     }
