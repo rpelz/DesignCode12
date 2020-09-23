@@ -120,8 +120,8 @@
 				F4A19E5B2504F02600D90E42 /* Navigation */,
 				F4A19E632506D4AD00D90E42 /* Model */,
 				F4A19E5C2504F03E00D90E42 /* Items */,
-				F4E82B67251BF6AA00C7263A /* Library */,
 				F4A19E522503D6D300D90E42 /* CoursesView.swift */,
+				F4E82B6A251BF7BB00C7263A /* Library */,
 				F472BF4A2517B3DA00DFD790 /* CourseSectionDetail.swift */,
 				F4A19E672508CBBD00D90E42 /* CourseDetail.swift */,
 				F4A19E5D2504F06400D90E42 /* CourseList.swift */,
@@ -192,11 +192,11 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		F4E82B67251BF6AA00C7263A /* Library */ = {
+		F4E82B6A251BF7BB00C7263A /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				F4A19E642508297200D90E42 /* CloseButton.swift */,
 				F4E82B62251BF2F700C7263A /* LibraryContent.swift */,
+				F4A19E642508297200D90E42 /* CloseButton.swift */,
 			);
 			path = Library;
 			sourceTree = "<group>";
